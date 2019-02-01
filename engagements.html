@@ -1,0 +1,21 @@
+---
+layout: default 
+title: Engagements 
+---
+<div class="container">
+
+	<h1 class="my-4 text-center text-lg-left">Engagements Gallery</h1>
+
+	<div class="row">
+		{% for engage in site.engagements %}
+		<div class="col-lg-3 colpad">
+			<img
+				class="img-fluid img-thumbnail" src="images/{{engage.img}}"
+				alt="{{engage.img}}">
+			
+		</div>
+		{% endfor %}
+
+	</div>
+
+</div>

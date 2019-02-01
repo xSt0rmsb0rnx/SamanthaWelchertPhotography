@@ -1,0 +1,21 @@
+---
+layout: default 
+title: Families 
+---
+<div class="container">
+
+	<h1 class="my-4 text-center text-lg-left">Families Gallery</h1>
+
+	<div class="row">
+		{% for fam in site.families %}
+		<div class="col-lg-3 colpad">
+			<img
+				class="img-fluid img-thumbnail" src="images/{{fam.img}}"
+				alt="{{fam.img}}">
+			
+		</div>
+		{% endfor %}
+
+	</div>
+
+</div>

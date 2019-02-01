@@ -1,0 +1,12 @@
+# Site settings
+title: Samantha Welchert Photography
+description: Natural Lighting Photography
+author: Jessica Phillips
+
+collections:
+  portfolio:
+  wedding:
+  maternity:
+  children:
+  families:
+  engagements:

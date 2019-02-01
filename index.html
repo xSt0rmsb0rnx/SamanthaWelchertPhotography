@@ -1,0 +1,21 @@
+---
+layout: default 
+title: Home 
+---
+<!-- Page Content -->
+<div class="container containerindex">
+	<div>
+		<img
+			class="category-banner img-responsive imgindex" src="images/SamWelchert.png"
+			alt="SamWelchertImg">
+	</div>
+</div>
+{% for ports in site.portfolio %}
+<div class="container containerindex">
+	<div class="imagebox">
+		<a href="{{ports.link}}"> <img
+			class="category-banner img-responsive imgindex" src="{{ports.image}}"
+			alt="{{ports.title}}"></a> <span class="imagebox-desc">{{ports.title}}</span>
+	</div>
+</div>
+{% endfor %}
